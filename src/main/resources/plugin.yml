@@ -1,0 +1,18 @@
+name: FireMcMace
+version: 1.0
+main: com.stormai.plugin.FireMcMace
+api-version: 1.21
+authors: [StormAI]
+description: Fire Maze plugin with heat damage, lava traps, fire mobs, and flame walls
+commands:
+  firemc:
+    description: Main FireMcMace command
+    usage: /firemc <subcommand>
+    aliases: [fmc]
+permissions:
+  firemc.admin:
+    description: Admin permissions for FireMcMace
+    default: op
+  firemc.user:
+    description: User permissions for FireMcMace
+    default: true

@@ -1,0 +1,31 @@
+# Configuration file for FireMcMace plugin
+
+# Enable or disable the maze system
+maze-active: true
+
+# Heat damage configuration
+heat-damage-rate: 1.0
+heat-damage-interval: 2000
+
+# Lava trap configuration
+lava-trap-damage: 3.0
+lava-trap-radius: 3
+
+# Flame wall configuration
+flame-wall-damage: 2.0
+flame-wall-radius: 1
+
+# Mob spawn zones configuration
+mob-spawn-zones:
+  - location: "0, 64, 0"
+    count: 2
+    mob-types:
+      - ZOMBIFIED_PIGLIN
+      - BLAZE
+
+# Maze area boundaries
+maze-area:
+  min-x: -100
+  max-x: 100
+  min-z: -100
+  max-z: 100
